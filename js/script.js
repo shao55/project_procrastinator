@@ -1,4 +1,5 @@
 let phrases = [
+<<<<<<< Updated upstream
     { text: 'отправить другу смешную гифку', image: '../img/1.gif' },
     { text: 'посмотреть скидки на авиабилеты', image: '../img/2.png' },
     { text: 'разобраться, о чём поют рэперы', image: '../img/3.png' },
@@ -10,6 +11,17 @@ let phrases = [
     { text: 'посмотреть трейлер сериала и заодно первый сезон', image: '../img/9.png' },
     { text: 'проверить непрочитанное в Telegram-каналах', image: '../img/10.png' }
   ];
+=======
+    { text: 'закодироваться от алкоголя', image: '../img/1.png' },
+    { text: 'позвать всех на новоселье', image: '../img/2.png' },
+    { text: 'посчитать прибыль со свадьбы', image: '../img/3.png' },
+    { text: 'отстрелить яички', image: '../img/4.png' },
+    { text: 'устроить настроение - агрессивное', image: '../img/5.png' },
+    { text: 'поработать за iPhone', image: '../img/6.png' },
+    { text: 'альхамдуллях', image: '../img/7.png' },
+    { text: 'плотно поужинать', image: '../img/8.png' },
+      ];
+>>>>>>> Stashed changes
   
   function getRandomElement(arr) {
     let randIndex = Math.floor(Math.random() * arr.length);
